@@ -28,10 +28,10 @@ pub fn validate(afm: &str) -> (bool, &str) {
 
     for i in (0..=7).rev() {
         m *= 2;
-        let digit = afm.chars().nth(i).unwrap() as u32  - '0' as u32;
+        let digit = afm.chars().nth(i).unwrap() as u32 - '0' as u32;
         sum += digit * m;
     }
-    let checkdigit =  afm.chars().nth(8).unwrap() as u32  - '0' as u32;
+    let checkdigit = afm.chars().nth(8).unwrap() as u32 - '0' as u32;
     if (sum % 11 % 10) != checkdigit {
         return (false, "Provided AFM does not have a valid checkdigit");
     }

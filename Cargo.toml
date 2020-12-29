@@ -1,6 +1,6 @@
 [package]
 name = "afm-rs"
-version = "0.1.0"
+version = "0.1.1"
 description = "A validator for greek tax identification number (ΑΦΜ)"
 authors = ["Zois Pagoulatos <zpagoulatos@hotmail.com>"]
 license = "MIT"

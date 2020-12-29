@@ -11,13 +11,13 @@ Add `afm-rs` under `[dependencies]` in your `Cargo.toml`:
 
 ```toml
 [dependencies]
-afm-rs = "0.1.0"
+afm-rs = "0.1.1"
 ```
 
 Use the validator:
 
 ```rust
-use afm-rs;
+use afm_rs;
 
 // An invalid AFM
 let (is_valid, err) = afm::validate("123456789");

@@ -1,0 +1,13 @@
+[package]
+name = "afm-rs"
+version = "0.1.0"
+description = "A validator for greek tax identification number (ΑΦΜ)"
+authors = ["Zois Pagoulatos <zpagoulatos@hotmail.com>"]
+license = "MIT"
+edition = "2018"
+repository = "https://github.com/zoispag/afm-rs"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
